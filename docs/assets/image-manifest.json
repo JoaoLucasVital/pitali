@@ -1,0 +1,120 @@
+[
+  {
+    "file": "pitali-hero-campanha.webp",
+    "width": 1066,
+    "height": 1600,
+    "bytes": 1253412,
+    "lossless": true
+  },
+  {
+    "file": "pitali-hero-campanha-hq.webp",
+    "width": 1333,
+    "height": 2000,
+    "bytes": 1951666,
+    "lossless": true
+  },
+  {
+    "file": "pitali-hero-campanha-640.webp",
+    "width": 640,
+    "height": 961,
+    "bytes": 240966,
+    "lossless": false
+  },
+  {
+    "file": "pitali-hero-campanha-960.webp",
+    "width": 960,
+    "height": 1441,
+    "bytes": 473932,
+    "lossless": false
+  },
+  {
+    "file": "pitali-movimento.webp",
+    "width": 854,
+    "height": 1138,
+    "bytes": 388448,
+    "lossless": true
+  },
+  {
+    "file": "pitali-logo.webp",
+    "width": 2000,
+    "height": 2000,
+    "bytes": 2964,
+    "lossless": true
+  },
+  {
+    "file": "jaqueta-rosa-recorte.webp",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 931786,
+    "lossless": true
+  },
+  {
+    "file": "pitali-look-praia.webp",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 910554,
+    "lossless": true
+  },
+  {
+    "file": "pitali-look-studio.webp",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 1270344,
+    "lossless": true
+  },
+  {
+    "file": "pitali-praia-fundo.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 757572,
+    "lossless": false
+  },
+  {
+    "file": "short-rosa-recorte.webp",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 775048,
+    "lossless": true,
+    "alpha": true
+  },
+  {
+    "file": "jaqueta-cinza-recorte.webp",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 716640,
+    "lossless": true,
+    "alpha": true
+  },
+  {
+    "file": "short-off-white-recorte.webp",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 687280,
+    "lossless": true,
+    "alpha": true
+  },
+  {
+    "file": "camiseta-branca-recorte.webp",
+    "width": 1299,
+    "height": 1211,
+    "bytes": 622384,
+    "lossless": true,
+    "alpha": true
+  },
+  {
+    "file": "short-laranja-recorte.webp",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 787176,
+    "lossless": true,
+    "alpha": true
+  },
+  {
+    "file": "short-vinho-recorte.webp",
+    "width": 1312,
+    "height": 1199,
+    "bytes": 654026,
+    "lossless": true,
+    "alpha": true
+  }
+]
