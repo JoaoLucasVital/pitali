@@ -1,0 +1,15 @@
+.parallax-hero{position:relative;height:155svh;background:#e2d7c1}
+.parallax-scene{height:100svh;position:sticky;top:0;isolation:isolate;overflow:clip}
+.parallax-background{position:absolute;inset:-20% 0;width:100%;height:140%;object-fit:cover;object-position:center;z-index:-3}
+.parallax-tint{position:absolute;inset:0;z-index:-2;background:linear-gradient(180deg,#f8f6f01a 20%,#e1d4b820 60%,#27231a65)}
+.parallax-title{position:absolute;z-index:-1;top:17%;left:4%;width:92%;text-align:center;color:#383428}
+.parallax-title .eyebrow{font-size:9px;letter-spacing:.16em;margin:0 0 14px}
+.parallax-title h1{font-family:var(--font-sans);font-weight:500;font-size:11px;line-height:1.5;letter-spacing:.16em;text-transform:uppercase;margin:0}
+.parallax-title h1 em{font-weight:400}
+.parallax-models{position:absolute;bottom:-10%;left:50%;margin-left:-72%;width:144%;max-width:none;height:110%;object-fit:contain;object-position:center bottom;z-index:0;pointer-events:none}
+.parallax-bottom{position:absolute;bottom:9%;left:6%;right:6%;display:flex;flex-direction:column;align-items:flex-start;gap:12px;z-index:3;color:#fff;text-shadow:0 1px 14px #24242270}
+.parallax-bottom .eyebrow{font-size:9px}.parallax-bottom p{margin:7px 0 0;font-family:var(--font-editorial);font-size:25px;line-height:1.1}
+.parallax-bottom .hero-glass-link{margin:0;text-shadow:none}
+.parallax-scroll{position:absolute;bottom:3%;left:6%;z-index:3;color:#fff;font-size:9px;letter-spacing:.06em;text-shadow:0 1px 8px #242422}
+@media(min-width:768px){.parallax-hero{height:165svh}.parallax-title{top:21%}.parallax-title h1{font-size:13px;line-height:1.5}.parallax-title h1 br{display:none}.parallax-title .eyebrow{margin-bottom:25px;font-size:11px}.parallax-models{width:66%;margin-left:-33%;height:115%;bottom:-35%}.parallax-bottom{flex-direction:row;justify-content:space-between;align-items:flex-end;bottom:9%;left:5%;right:5%}.parallax-bottom p{font-size:34px}.parallax-scroll{left:5%;font-size:10px}}
+@media(prefers-reduced-motion:reduce){.parallax-hero{height:100svh}.parallax-scene{position:relative}.parallax-background,.parallax-models,.parallax-title{transform:none!important}}

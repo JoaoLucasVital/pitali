@@ -1,0 +1,32 @@
+:root[data-theme='light'] { --lg-foreground: #242422; --lg-fill: #80621f; --lg-ring: #80621f; --lg-glass: rgb(255 253 247 / .65); --lg-edge: rgb(128 98 31 / .19); }
+.pitali-glass-link { display: inline-block; border-radius: 999px; --lg-blur: 8px; }
+.pitali-glass-link > a { display: inline-flex; justify-content: center; align-items: center; gap: 24px; min-height: 48px; padding: 0 25px; border-radius: inherit; color: #463816; font-size: 12px; font-weight: 500; }
+.pitali-glass-link > a:focus-visible { outline: 2px solid #80621f; outline-offset: 5px; }
+.pitali-glass-link > a:active { background: rgb(128 98 31 / .1); }
+.hero-copy .pitali-glass-link { margin-top: 30px; }
+.pitali-glass-button { min-height: 48px; gap: 15px; font-family: inherit; font-size: 11px; }
+.motion-footer { position: relative; isolation: isolate; overflow: hidden; background: #eee9dc; border-top: 1px solid #80621f25; }
+.mf-content { padding: 70px 6% 20px; }
+.mf-top { display: grid; gap: 50px; }
+.mf-label { margin: 0 0 22px; color: #80621f; font-size: 10px; line-height: 1.5; }
+.mf-invitation h2 { font-family: var(--font-editorial); margin: 0 0 28px; font-size: clamp(38px, 9vw, 70px); font-weight: 400; line-height: 1.1; letter-spacing: -.045em; }
+.mf-nav { display: flex; flex-wrap: wrap; align-items: center; column-gap: 26px; row-gap: 3px; }
+.mf-nav .mf-label { flex-basis: 100%; margin-bottom: 10px; }
+.mf-nav a { min-height: 44px; display: inline-flex; align-items: center; gap: 10px; font-size: 12px; }
+.mf-wordmark { margin: 64px -.01em 30px; padding-left: .09em; color: #80621f; font-size: clamp(70px, 18vw, 290px); font-weight: 400; line-height: 1; letter-spacing: .09em; text-align: center; user-select: none; }
+.mf-bottom { display: flex; align-items: center; justify-content: space-between; gap: 15px; padding-top: 20px; border-top: 1px solid #80621f2b; }
+.mf-bottom > span { color: #68604f; font-size: 10px; }
+@media (min-width: 768px) {
+  .mf-content { padding: 100px 6% 28px; }
+  .mf-top { grid-template-columns: 2fr 1fr; gap: 70px; }
+  .mf-nav { align-content: start; align-items: start; flex-direction: column; gap: 0; padding-top: 6px; }
+  .mf-nav .mf-label { flex-basis: auto; margin-bottom: 20px; }
+  .mf-wordmark { margin-top: 95px; font-size: 18vw; }
+}
+@media (hover: hover) and (pointer: fine) { .mf-nav a:hover { color: #80621f; text-decoration: underline; text-underline-offset: 5px; } }
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+  .pitali-glass-link, .pitali-glass-button { --lg-glass: #f8f6f0; --lg-edge: #80621f; backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lg-button { scale: none !important; translate: none !important; transform: none !important; }
+}

@@ -1,0 +1,14 @@
+.pitali-splash { position: fixed; z-index: 1000; inset: 0; background: #f8f6f0; color: #242422; display: grid; grid-template-rows: auto 1fr; padding: max(26px, env(safe-area-inset-top)) max(24px, env(safe-area-inset-right)) max(26px, env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left)); overflow: hidden; isolation: isolate; }
+.splash-topline { display: flex; align-items: center; justify-content: space-between; gap: 24px; position: relative; z-index: 2; }
+.splash-topline { color: #80621f; font-size: 9px; letter-spacing: .12em; }
+.splash-stage { position: relative; width: 100%; min-height: 0; display: grid; place-items: center; }
+.splash-glass { position: absolute; top: 50%; left: 50%; width: min(100%, 760px); aspect-ratio: 1; transform: translate(-50%, -50%); opacity: 0; pointer-events: none; }
+.splash-fallback { width: min(65vw, 360px); display: grid; place-items: center; }
+
+.splash-fallback img { display: block; width: 100%; height: auto; }
+.pitali-splash[data-glass='ready'] .splash-glass { opacity: 1; }
+.pitali-splash[data-glass='ready'] .splash-fallback { opacity: 0; }
+@media (min-width: 768px) { .pitali-splash { padding: max(38px, env(safe-area-inset-top)) 5% max(38px, env(safe-area-inset-bottom)); } .splash-topline { font-size:10px; } }
+@media (prefers-reduced-motion: reduce), (prefers-reduced-transparency: reduce) { .splash-glass { display: none; } .pitali-splash .splash-fallback { opacity: 1; } }
+
+.pitali-splash:focus{outline:none}

@@ -1,0 +1,34 @@
+---
+import HorizonHero from '../components/HorizonHero';
+import '../styles/horizon.css';
+import '@fontsource-variable/manrope';
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#f8f6f0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>PITALI | Horizonte, estudo de movimento</title>
+  </head>
+  <body class="hz-page">
+    <a class="hz-skip" href="#horizon-end">Pular experiência</a>
+    <header class="hz-header">
+      <a href="/" class="hz-home" aria-label="Voltar à proposta original">← <span>Proposta original</span></a>
+      <a href="#top" class="hz-logo" aria-label="Pitali, início"><span><img src="/images/pitali-logo.webp" alt="PITALI" width="2000" height="2000" /></span></a>
+      <span class="hz-test-label">Estudo 02</span>
+    </header>
+    <main id="top">
+      <HorizonHero client:load />
+      <section class="hz-ending" id="horizon-end">
+        <p class="hz-ending-label">Sol e movimento</p>
+        <h2>O seu próximo<br />horizonte.</h2>
+        <p class="hz-ending-copy">Um encontro entre a leveza da praia<br />e a energia de estar em movimento.</p>
+        <a href="/" class="hz-compare">Comparar com a proposta original <span aria-hidden="true">↗</span></a>
+        <p class="hz-study-note">Estudo visual com elementos ilustrativos.<br />Não representa produtos à venda.</p>
+      </section>
+    </main>
+    <footer class="hz-footer"><span>PITALI · BEACHWEAR &amp; FITWEAR</span><a href="#top">Voltar ao topo ↑</a></footer>
+  </body>
+</html>
